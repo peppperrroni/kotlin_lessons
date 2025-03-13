@@ -11,9 +11,7 @@ kotlin_lessons/
 ├── basics/                  # Основы языка Kotlin
 │   ├── lessons/             # Теоретические материалы
 │   └── excersizes/          # Практические задания
-├── oop/                     # Объектно-ориентированное программирование
-│   ├── lessons/             # Теоретические материалы
-│   └── excersizes/          # Практические задания
+├── oop/                     # Объектно-ориентированное программирование (будет добавлено позже)
 ├── advanced/                # Продвинутые концепции (будет добавлено позже)
 └── extras/                  # Дополнительные материалы (будет добавлено позже)
 ```
@@ -30,9 +28,9 @@ kotlin_lessons/
 5. [Функции](basics/lessons/05_Functions.md)
 6. [Лямбда-выражения](basics/lessons/06_Lambdas.md)
 7. [Коллекции](basics/lessons/07_Collections.md)
-8. Обработка ошибок (скоро будет добавлено)
-9. Классы и объекты (скоро будет добавлено)
-10. Наследование и интерфейсы (скоро будет добавлено)
+8. [Обработка ошибок](basics/lessons/08_ErrorHandling.md)
+9. [Классы и объекты](basics/lessons/09_Classes.md)
+10. [Наследование и интерфейсы](basics/lessons/10_Inheritance_and_Interfaces.md)
 
 #### Практические задания (excersizes)
 1. [Переменные и типы данных](basics/excersizes/01_Variables_and_DataTypes.kt)
@@ -42,9 +40,9 @@ kotlin_lessons/
 5. [Функции](basics/excersizes/05_Functions.kt)
 6. [Лямбда-выражения](basics/excersizes/06_Lambdas.kt)
 7. [Коллекции](basics/excersizes/07_Collections.kt)
-8. Классы и объекты (скоро будет добавлено)
-9. Наследование и интерфейсы (скоро будет добавлено)
-10. Обработка ошибок (скоро будет добавлено)
+8. [Обработка ошибок](basics/excersizes/10_ErrorHandling.kt)
+9. [Классы и объекты](basics/excersizes/09_Classes.kt)
+10. [Наследование и интерфейсы](basics/excersizes/10_Inheritance_and_Interfaces.kt)
 
 ### Объектно-ориентированное программирование (oop)
 
