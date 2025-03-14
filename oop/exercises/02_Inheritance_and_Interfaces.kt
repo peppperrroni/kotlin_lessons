@@ -1,4 +1,8 @@
-package basics.excersizes
+package oop.exercises
+
+/**
+ * Упражнения по теме "Наследование и интерфейсы в Kotlin"
+ */
 
 /**
  * Упражнение 1: Базовое наследование
@@ -8,10 +12,11 @@ package basics.excersizes
  * Создайте подкласс Car, который наследуется от Vehicle и добавляет свойство model (String).
  * Переопределите метод getInfo() в Car, чтобы он включал информацию о модели.
  */
-class Solution1 {
+class Exercise1 {
     // your solution
     
-    fun testVehicleAndCar(): Pair<String, String> {
+    // Демонстрация базового наследования
+    fun demonstrateBasicInheritance(): Pair<String, String> {
         // your solution
     }
 }
@@ -23,10 +28,11 @@ class Solution1 {
  * Создайте подкласс DiscountedProduct, который переопределяет свойство price,
  * применяя скидку к базовой цене.
  */
-class Solution2 {
+class Exercise2 {
     // your solution
     
-    fun testProducts(): Pair<Double, Double> {
+    // Демонстрация переопределения свойств
+    fun demonstratePropertyOverriding(): Pair<Double, Double> {
         // your solution
     }
 }
@@ -37,10 +43,11 @@ class Solution2 {
  * Создайте абстрактный класс Shape с абстрактными методами area() и perimeter().
  * Реализуйте подклассы Circle и Rectangle, которые наследуются от Shape.
  */
-class Solution3 {
+class Exercise3 {
     // your solution
     
-    fun testShapes(): Triple<Double, Double, Double> {
+    // Демонстрация работы с абстрактными классами
+    fun demonstrateAbstractClasses(): Triple<Double, Double, Double> {
         // your solution
     }
 }
@@ -51,10 +58,11 @@ class Solution3 {
  * Создайте интерфейс Drawable с методом draw().
  * Реализуйте классы Circle и Square, которые реализуют этот интерфейс.
  */
-class Solution4 {
+class Exercise4 {
     // your solution
     
-    fun testDrawables(): Pair<String, String> {
+    // Демонстрация работы с интерфейсами
+    fun demonstrateInterfaces(): Pair<String, String> {
         // your solution
     }
 }
@@ -65,10 +73,11 @@ class Solution4 {
  * Создайте интерфейсы Playable и Recordable с методами play() и record() соответственно.
  * Реализуйте класс MediaPlayer, который реализует оба интерфейса.
  */
-class Solution5 {
+class Exercise5 {
     // your solution
     
-    fun testMediaPlayer(): Pair<String, String> {
+    // Демонстрация работы с множественными интерфейсами
+    fun demonstrateMultipleInterfaces(): Pair<String, String> {
         // your solution
     }
 }
@@ -79,10 +88,11 @@ class Solution5 {
  * Создайте интерфейс Logger с методом log(message: String) и методом по умолчанию logInfo(message: String).
  * Реализуйте классы ConsoleLogger и FileLogger, которые реализуют этот интерфейс.
  */
-class Solution6 {
+class Exercise6 {
     // your solution
     
-    fun testLoggers(): Triple<String, String, String> {
+    // Демонстрация работы с интерфейсами с реализацией по умолчанию
+    fun demonstrateDefaultImplementation(): Triple<String, String, String> {
         // your solution
     }
 }
@@ -93,10 +103,11 @@ class Solution6 {
  * Создайте два интерфейса A и B с одинаковым методом foo().
  * Реализуйте класс C, который реализует оба интерфейса и разрешает конфликт.
  */
-class Solution7 {
+class Exercise7 {
     // your solution
     
-    fun testConflictResolution(): String {
+    // Демонстрация разрешения конфликтов
+    fun demonstrateConflictResolution(): String {
         // your solution
     }
 }
@@ -109,10 +120,11 @@ class Solution7 {
  * Создайте класс CachedRepository, который делегирует реализацию Repository объекту repository,
  * но добавляет кэширование.
  */
-class Solution8 {
+class Exercise8 {
     // your solution
     
-    fun testRepositories(): Triple<String, String, String> {
+    // Демонстрация делегирования интерфейсов
+    fun demonstrateInterfaceDelegation(): Triple<String, String, String> {
         // your solution
     }
 }
@@ -123,14 +135,11 @@ class Solution8 {
  * Создайте запечатанный класс Result с подклассами Success, Error и Loading.
  * Реализуйте функцию handleResult, которая обрабатывает результат в зависимости от его типа.
  */
-class Solution9 {
+class Exercise9 {
     // your solution
     
-    fun handleResult(result: Result): String {
-        // your solution
-    }
-    
-    fun testResults(): Triple<String, String, String> {
+    // Демонстрация работы с запечатанными классами
+    fun demonstrateSealedClasses(): Triple<String, String, String> {
         // your solution
     }
 }
@@ -142,10 +151,11 @@ class Solution9 {
  * Создайте интерфейс Pet с методами play() и groom().
  * Реализуйте классы Dog и Cat, которые наследуются от Animal и реализуют интерфейс Pet.
  */
-class Solution10 {
+class Exercise10 {
     // your solution
     
-    fun testAnimals(): List<String> {
+    // Демонстрация комбинирования наследования и интерфейсов
+    fun demonstrateInheritanceWithInterfaces(): List<String> {
         // your solution
     }
 } 
