@@ -9,13 +9,7 @@ package basics.excersizes
  * Переопределите метод getInfo() в Car, чтобы он включал информацию о модели.
  */
 class Solution1 {
-    open class Vehicle(val brand: String, val year: Int) {
-        // your solution
-    }
-    
-    class Car(brand: String, year: Int, val model: String) : Vehicle(brand, year) {
-        // your solution
-    }
+    // your solution
     
     fun testVehicleAndCar(): Pair<String, String> {
         // your solution
@@ -30,13 +24,7 @@ class Solution1 {
  * применяя скидку к базовой цене.
  */
 class Solution2 {
-    open class Product(val name: String, open val price: Double) {
-        // your solution
-    }
-    
-    class DiscountedProduct(name: String, basePrice: Double, val discountPercent: Double) : Product(name, basePrice) {
-        // your solution
-    }
+    // your solution
     
     fun testProducts(): Pair<Double, Double> {
         // your solution
@@ -50,17 +38,7 @@ class Solution2 {
  * Реализуйте подклассы Circle и Rectangle, которые наследуются от Shape.
  */
 class Solution3 {
-    abstract class Shape {
-        // your solution
-    }
-    
-    class Circle(val radius: Double) : Shape() {
-        // your solution
-    }
-    
-    class Rectangle(val width: Double, val height: Double) : Shape() {
-        // your solution
-    }
+    // your solution
     
     fun testShapes(): Triple<Double, Double, Double> {
         // your solution
@@ -74,17 +52,7 @@ class Solution3 {
  * Реализуйте классы Circle и Square, которые реализуют этот интерфейс.
  */
 class Solution4 {
-    interface Drawable {
-        // your solution
-    }
-    
-    class Circle(val radius: Double) : Drawable {
-        // your solution
-    }
-    
-    class Square(val side: Double) : Drawable {
-        // your solution
-    }
+    // your solution
     
     fun testDrawables(): Pair<String, String> {
         // your solution
@@ -98,17 +66,7 @@ class Solution4 {
  * Реализуйте класс MediaPlayer, который реализует оба интерфейса.
  */
 class Solution5 {
-    interface Playable {
-        // your solution
-    }
-    
-    interface Recordable {
-        // your solution
-    }
-    
-    class MediaPlayer : Playable, Recordable {
-        // your solution
-    }
+    // your solution
     
     fun testMediaPlayer(): Pair<String, String> {
         // your solution
@@ -122,17 +80,7 @@ class Solution5 {
  * Реализуйте классы ConsoleLogger и FileLogger, которые реализуют этот интерфейс.
  */
 class Solution6 {
-    interface Logger {
-        // your solution
-    }
-    
-    class ConsoleLogger : Logger {
-        // your solution
-    }
-    
-    class FileLogger(val fileName: String) : Logger {
-        // your solution
-    }
+    // your solution
     
     fun testLoggers(): Triple<String, String, String> {
         // your solution
@@ -146,17 +94,7 @@ class Solution6 {
  * Реализуйте класс C, который реализует оба интерфейса и разрешает конфликт.
  */
 class Solution7 {
-    interface A {
-        // your solution
-    }
-    
-    interface B {
-        // your solution
-    }
-    
-    class C : A, B {
-        // your solution
-    }
+    // your solution
     
     fun testConflictResolution(): String {
         // your solution
@@ -172,17 +110,7 @@ class Solution7 {
  * но добавляет кэширование.
  */
 class Solution8 {
-    interface Repository {
-        // your solution
-    }
-    
-    class DatabaseRepository : Repository {
-        // your solution
-    }
-    
-    class CachedRepository(private val repository: Repository) : Repository by repository {
-        // your solution
-    }
+    // your solution
     
     fun testRepositories(): Triple<String, String, String> {
         // your solution
@@ -215,21 +143,7 @@ class Solution9 {
  * Реализуйте классы Dog и Cat, которые наследуются от Animal и реализуют интерфейс Pet.
  */
 class Solution10 {
-    abstract class Animal(val name: String) {
-        // your solution
-    }
-    
-    interface Pet {
-        // your solution
-    }
-    
-    class Dog(name: String) : Animal(name), Pet {
-        // your solution
-    }
-    
-    class Cat(name: String) : Animal(name), Pet {
-        // your solution
-    }
+    // your solution
     
     fun testAnimals(): List<String> {
         // your solution

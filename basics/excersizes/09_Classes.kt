@@ -7,9 +7,7 @@ package basics.excersizes
  * Добавьте метод introduceYourself(), который возвращает строку с представлением человека.
  */
 class Solution1 {
-    class Person(val name: String, val age: Int) {
-        // your solution
-    }
+    // your solution
     
     fun createAndIntroducePerson(name: String, age: Int): String {
         // your solution
@@ -24,9 +22,7 @@ class Solution1 {
  * Реализуйте метод getInfo(), возвращающий информацию о книге.
  */
 class Solution2 {
-    class Book {
-        // your solution
-    }
+    // your solution
     
     fun createBookWithYear(title: String, author: String, year: Int): String {
         // your solution
@@ -45,9 +41,7 @@ class Solution2 {
  * Реализуйте методы deposit(amount: Double) и withdraw(amount: Double).
  */
 class Solution3 {
-    class BankAccount {
-        // your solution
-    }
+    // your solution
     
     fun testBankAccount(): String {
         // your solution
@@ -96,9 +90,7 @@ class Solution5 {
  * Memory должен иметь свойство sizeGB (Int) и метод, использующий свойство из внешнего класса.
  */
 class Solution6 {
-    class Computer(val brand: String) {
-        // your solution
-    }
+    // your solution
     
     fun describeComputer(brand: String, processorModel: String, cores: Int, memorySizeGB: Int): String {
         // your solution
@@ -126,9 +118,7 @@ class Solution7 {
  * а также методы для вычисления площади и длины окружности.
  */
 class Solution8 {
-    class MathUtils {
-        // your solution
-    }
+    // your solution
     
     fun calculateCircleProperties(radius: Double): Pair<Double, Double> {
         // your solution
